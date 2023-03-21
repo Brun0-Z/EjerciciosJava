@@ -11,16 +11,30 @@ Nota: investigar la función Math.sqrt().
 */
 
 public class Ej5 {
-
+ public static Scanner leer = new Scanner(System.in).useDelimiter("\n");
+ 
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
-        System.out.println("Ingresar el número: ");
-        double num = leer.nextDouble(); //Esto cuenta como declarar y leer el num
-        System.out.println("El doble de " + num + " = " + (num*2));
-        System.out.println("El triple de " + num + " = " + (num*3));
-        System.out.println("La raíz de " + num + " = " + Math.sqrt(num));
-        
-        
+               
+
+      
     }
+     
+    public static String nombreyedad(String nombre,String edad){
+    String ingreso;
+    String respuesta="si";
+    String nombres ,edades;
     
+    
+        do {            
+            System.out.println("Ingrese Nombre de la persona");
+            nombres=leer.next();
+         
+            
+            
+        } while (respuesta.equalsIgnoreCase("no"));
+    
+    
+    
+    return nombres;
+    }   
 }
