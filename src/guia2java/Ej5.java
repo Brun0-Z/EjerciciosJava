@@ -9,19 +9,9 @@ Nota: investigar la función Math.sqrt().
  */
 public class Ej5 {
 
-    public static Scanner leer = new Scanner(System.in).useDelimiter("\n");
-
-    public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
-        int num = leer.nextInt();
-        double aux = num;
-        System.out.println("Doble: " + (num * 2));
-        System.out.println("Triple: " + (num * 3));
-        System.out.println("Raíz: " + (Math.sqrt(aux)));
-
-    }
-    public static void main(String[] args) {
-    Scanner leer = new Scanner(System.in);          
+    public static Scanner leer = new Scanner(System.in);
+    
+    public static void main(String[] args)  {
     int num = leer.nextInt(); double aux = num;
     System.out.println("Doble: " + (num*2));
     System.out.println("Triple: " + (num*3));
