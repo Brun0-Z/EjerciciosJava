@@ -1,6 +1,7 @@
 package guia4java;
 
 import java.util.Scanner;
+import Prueba.Entidad.Persona;
 
 /*
 Diseñe una función que pida el nombre y la edad de N personas e imprima 

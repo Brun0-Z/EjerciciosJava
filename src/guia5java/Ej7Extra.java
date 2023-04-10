@@ -33,4 +33,23 @@ public class Ej7Extra {
             return fibonacci(N-1)+fibonacci(N-2);
         }
     }
+    
+    /*
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int fib=1;
+        System.out.println("hasta que numero de fibonacci quiere imprimir");
+        int num = leer.nextInt();
+        int vector [] = new int [num];
+       vector[0]=1;
+       vector[1]=1;
+        for(int i=2;i<num;i++){
+            vector[i]=vector[i-2]+vector[i-1];
+        }
+        for(int i=0;i<num;i++){
+            System.out.println("["+vector[i]+"]");
+        }
+    }
+}
+    */
 }
